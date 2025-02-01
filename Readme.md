@@ -1,6 +1,6 @@
 # Cryptography: Fundamentals and Applications
 
-This repository aims to provide the concepts and practical examples to understand a complete security system, combining symmetric encryption (AES), asymmetric encryption (RSA), modes of operation (CBC, GCM), and digital signatures.
+This repository provides concepts and practical examples to understand a complete security system, combining symmetric encryption (AES), asymmetric encryption (RSA), modes of operation (CBC, GCM), and digital signatures.
 
 ---
 
@@ -23,19 +23,19 @@ AES (**Advanced Encryption Standard**) is a symmetric encryption algorithm, mean
    - Each block is encrypted independently.
    - **Issue**: Repetitive patterns in the encrypted data.
    - **Use**: Not recommended for sensitive data.
-   - [View code ECB.py](./Symmetric/ECB.py)
+   - [View Explaination and Code ECB.py](./Symmetric/ECB.py)
 
 2. **CBC (Cipher Block Chaining)**:
    - Each block is encrypted based on the previous block.
    - Requires an **IV (Initialization Vector)** to add randomness.
    - **Advantage**: More secure than ECB.
-   - [View code CBC.py](./Symmetric/CBC.py)
+   - [View Explaination and code CBC.py](./Symmetric/CBC.py)
 
 3. **GCM (Galois/Counter Mode)**:
    - Combines encryption and authentication.
    - Generates a **tag** that allows verifying data integrity.
    - **Advantage**: Efficient and secure.
-   - [View code GCM.py](./Symmetric/GCM.py)
+   - [View Explaination and code GCM.py](./Symmetric/GCM.py)
 
 ---
 
@@ -51,7 +51,7 @@ RSA is an asymmetric encryption algorithm, meaning it uses a pair of keys: a **p
 - **Applications**:
   - Secure key exchange.
   - Digital signatures.
-- [View code RSA.py](./Asymmetric/RSA.py)
+- [View Explaination and code RSA.py](./Asymmetric/RSA.py)
 
 ---
 
@@ -119,6 +119,100 @@ except (ValueError, TypeError):
 
 - **AES + RSA**: Use RSA to securely exchange an AES key, then use AES to encrypt the data.
 - **Digital signatures**: Use RSA to sign the hash of the data encrypted with AES.
+
+---
+
+## **5. Other Cryptographic Algorithms**
+
+### **ECDSA (Elliptic Curve Digital Signature Algorithm)**
+
+#### **What is ECDSA?**
+
+ECDSA is a digital signature algorithm based on elliptic curve cryptography. It is more efficient than RSA and is widely used in applications like Bitcoin and Ethereum.
+
+#### **Key Features**
+
+- **Efficiency**: Requires smaller key sizes compared to RSA for the same level of security.
+- **Security**: Based on the mathematical complexity of elliptic curves.
+- **Applications**: Digital signatures, blockchain technology.
+
+#### **View Code**
+
+- [View Explaination and code ECDSA.py](./other/ECDSA.py)
+
+---
+
+### **HMAC (Hash-based Message Authentication Code)**
+
+#### **What is HMAC?**
+
+HMAC is a mechanism for verifying the integrity and authenticity of a message using a hash function and a secret key.
+
+#### **Key Features**
+
+- **Integrity**: Ensures that the message has not been tampered with.
+- **Authentication**: Verifies the sender using a shared secret key.
+- **Applications**: Secure communication, API authentication.
+
+#### **View Code**
+
+- [View Explaination and code HMAC.py](./other/HMAC.py)
+
+---
+
+### **SHA-256 (Secure Hash Algorithm 256-bit)**
+
+#### **What is SHA-256?**
+
+SHA-256 is a widely used cryptographic hash function that produces a 256-bit (32-byte) hash value. It is part of the SHA-2 family of hash functions.
+
+#### **Key Features**
+
+- **Fixed Output**: Always produces a 256-bit hash.
+- **One-way Function**: It is computationally infeasible to reverse the hash.
+- **Applications**: Data integrity, blockchain, password hashing.
+
+#### **View Code**
+
+- [View Explaination and code SHA256.py](./other/SHA256.py)
+
+---
+
+## **6. Common Combinations**
+
+### **AES + RSA**
+
+#### **What is AES + RSA?**
+
+This combination uses RSA to securely exchange an AES key, and then AES is used to encrypt the data. RSA provides secure key exchange, while AES ensures efficient encryption of large amounts of data.
+
+#### **Key Features**
+
+- **Secure Key Exchange**: RSA ensures that the AES key is securely transmitted.
+- **Efficient Encryption**: AES is fast and efficient for encrypting data.
+- **Applications**: Secure communication, file encryption.
+
+#### **View Code**
+
+- [View Explaination and code AES_RSA.py](./combinations/AES_RSA.py)
+
+---
+
+### **HMAC + AES**
+
+#### **What is HMAC + AES?**
+
+This combination uses HMAC to authenticate data encrypted with AES. HMAC ensures the integrity and authenticity of the encrypted data.
+
+#### **Key Features**
+
+- **Data Integrity**: HMAC verifies that the data has not been tampered with.
+- **Authentication**: Ensures that the data comes from a trusted source.
+- **Applications**: Secure communication, data storage.
+
+#### **View Code**
+
+- [View Explaination and code HMAC_AES.py](./combinations/HMAC_AES.py)
 
 ---
 
