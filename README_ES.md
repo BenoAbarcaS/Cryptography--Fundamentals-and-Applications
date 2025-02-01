@@ -27,7 +27,7 @@ Este repositorio proporciona conceptos y ejemplos prácticos para entender un si
 
 ## **0. Ejemplos Prácticos**
 
-Todos los ejemplos practicos a ver estaran disponibles en el repositorio como tambien en un solo archivo **Google Collab**. Puedes acceder a ellos a traves de **[este enlace](https://colab.research.google.com/drive/1YcJKbu3w18cmb7xH8x0DhmLPBQudPtY9?usp=sharing)**
+Todos los ejemplos practicos a ver estaran disponibles en el repositorio como tambien en un solo archivo **Google Colab**. Puedes acceder a ellos a traves de **[este enlace](https://colab.research.google.com/drive/1YcJKbu3w18cmb7xH8x0DhmLPBQudPtY9?usp=sharing)**
 
 ---
 
