@@ -27,7 +27,7 @@ This repository provides concepts and practical examples to understand a complet
 
 ## **0. Practical Examples**
 
-All the practical examples to see will be available in the repository as well as in a single **Google Collab** file. You can access them through **[this link](https://colab.research.google.com/drive/1YcJKbu3w18cmb7xH8x0DhmLPBQudPtY9?usp=sharing)**.
+All the practical examples to see will be available in the repository as well as in a single **Google Colab** file. You can access them through **[this link](https://colab.research.google.com/drive/1YcJKbu3w18cmb7xH8x0DhmLPBQudPtY9?usp=sharing)**.
 
 ---
 
