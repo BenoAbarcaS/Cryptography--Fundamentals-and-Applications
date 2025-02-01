@@ -83,22 +83,22 @@ from Crypto.PublicKey import RSA
 from Crypto.Signature import pkcs1_15
 from Crypto.Hash import SHA256
 
-# Generar claves
-clave = RSA.generate(2048)
-clave_privada = clave.export_key()
-clave_publica = clave.publickey().export_key()
+# Generate keys
+key = RSA.generate(2048)
+private_key = key.export_key()
+public_key = key.publickey().export_key()
 
-# Firmar un mensaje
-mensaje = b"Este es un mensaje importante."
-hash_mensaje = SHA256.new(mensaje)
-firma = pkcs1_15.new(RSA.import_key(clave_privada)).sign(hash_mensaje)
+# Sign a message
+message = b"This is an important message."
+message_hash = SHA256.new(message)
+signature = pkcs1_15.new(RSA.import_key(private_key)).sign(message_hash)
 
-# Verificar la firma
+# Verify the signature
 try:
-    pkcs1_15.new(RSA.import_key(clave_publica)).verify(hash_mensaje, firma)
-    print("La firma es válida.")
+    pkcs1_15.new(RSA.import_key(public_key)).verify(message_hash, signature)
+    print("The signature is valid.")
 except (ValueError, TypeError):
-    print("La firma no es válida.")
+    print("The signature is not valid.")
 ```
 
 ---
@@ -135,3 +135,9 @@ except (ValueError, TypeError):
 This repository is part of a series of projects to learn cybersecurity. Here is the recommended order:
 
 1. **[Cryptography: Fundamentals and Applications](https://github.com/BenoAbarcaS/Cryptography--Fundamentals-and-Applications)**
+
+---
+
+## **License**
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.

@@ -135,3 +135,9 @@ except (ValueError, TypeError):
 Este repositorio es parte de una serie de proyectos para aprender ciberseguridad. Aquí tienes el orden recomendado:
 
 1. **[Criptografía: Fundamentos y Aplicaciones](https://github.com/BenoAbarcaS/Cryptography--Fundamentals-and-Applications)**
+
+---
+
+## **Licencia**
+
+Este proyecto está bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
