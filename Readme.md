@@ -99,25 +99,29 @@ try:
     print("La firma es válida.")
 except (ValueError, TypeError):
     print("La firma no es válida.")
-end
+```
 
 ## **4. Relación entre Cifrado y Firmas Digitales**
 
 ### **Cifrado Simétrico (AES)**
+
 - **Propósito**: Proteger la **confidencialidad** de los datos.
 - **Uso**: Cifrado de archivos, comunicaciones seguras.
 
 ### **Cifrado Asimétrico (RSA)**
+
 - **Propósito**: Facilitar el **intercambio seguro de claves** y las **firmas digitales**.
 - **Uso**: Intercambio de claves, autenticación, integridad.
 
 ### **Combinación**
+
 - **AES + RSA**: Usa RSA para intercambiar una clave AES de manera segura, y luego usa AES para cifrar los datos.
 - **Firmas digitales**: Usa RSA para firmar el hash de los datos cifrados con AES.
 
 ---
 
 ## **5. Recursos Adicionales**
+
 - [Documentación de PyCryptodome](https://pycryptodome.readthedocs.io/): Para profundizar en las funciones de criptografía.
 - [Tutorial de RSA en Python](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/): Para entender mejor el algoritmo RSA.
 - [Guía de modos de operación AES](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation): Explicación detallada de CBC, GCM y otros modos.
