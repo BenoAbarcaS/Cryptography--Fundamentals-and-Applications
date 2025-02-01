@@ -158,7 +158,7 @@ ECDSA is a digital signature algorithm based on elliptic curve cryptography. It 
 
 #### **View Code**
 
-- [View Explaination and code ECDSA.py](./other/ECDSA.py)
+- [View Explaination and code ECDSA.py](./Other/ECDSA.py)
 
 ---
 
@@ -176,7 +176,7 @@ HMAC is a mechanism for verifying the integrity and authenticity of a message us
 
 #### **View Code**
 
-- [View Explaination and code HMAC.py](./other/HMAC.py)
+- [View Explaination and code HMAC.py](./Other/HMAC.py)
 
 ---
 
@@ -194,7 +194,7 @@ SHA-256 is a widely used cryptographic hash function that produces a 256-bit (32
 
 #### **View Code**
 
-- [View Explaination and code SHA256.py](./other/SHA256.py)
+- [View Explaination and code SHA256.py](./Other/SHA256.py)
 
 ---
 
@@ -214,7 +214,7 @@ This combination uses RSA to securely exchange an AES key, and then AES is used 
 
 #### **View Code**
 
-- [View Explaination and code AES_RSA.py](./combinations/AES_RSA.py)
+- [View Explaination and code AES_RSA.py](./Combinations/AES_RSA.py)
 
 ---
 
@@ -232,7 +232,7 @@ This combination uses HMAC to authenticate data encrypted with AES. HMAC ensures
 
 #### **View Code**
 
-- [View Explaination and code HMAC_AES.py](./combinations/HMAC_AES.py)
+- [View Explaination and code HMAC_AES.py](./Combinations/HMAC_AES.py)
 
 ---
 
