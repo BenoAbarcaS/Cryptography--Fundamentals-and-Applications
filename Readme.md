@@ -11,6 +11,20 @@ This repository provides concepts and practical examples to understand a complet
 
 ---
 
+## **Table of Contents**
+
+1. [Symmetric Encryption (AES)](#1-symmetric-encryption-aes)
+2. [Asymmetric Encryption (RSA)](#2-asymmetric-encryption-rsa)
+3. [Digital Signatures](#3-digital-signatures)
+4. [Relationship Between Encryption and Digital Signatures](#4-relationship-between-encryption-and-digital-signatures)
+5. [Other Cryptographic Algorithms](#5-other-cryptographic-algorithms)
+6. [Common Combinations](#6-common-combinations)
+7. [Additional Resources](#7-additional-resources)
+8. [Cybersecurity Learning Path](#8-cybersecurity-learning-path)
+9. [License](#9-license)
+
+---
+
 ## **1. Symmetric Encryption (AES)**
 
 ### **What is AES?**
@@ -216,7 +230,7 @@ This combination uses HMAC to authenticate data encrypted with AES. HMAC ensures
 
 ---
 
-## **5. Additional Resources**
+## **7. Additional Resources**
 
 - [PyCryptodome Documentation](https://pycryptodome.readthedocs.io/): To dive deeper into cryptographic functions.
 - [RSA Tutorial in Python](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/): To better understand the RSA algorithm.
@@ -224,7 +238,7 @@ This combination uses HMAC to authenticate data encrypted with AES. HMAC ensures
 
 ---
 
-## **Cybersecurity Learning Path**
+## **8. Cybersecurity Learning Path**
 
 This repository is part of a series of projects to learn cybersecurity. Here is the recommended order:
 
@@ -232,6 +246,6 @@ This repository is part of a series of projects to learn cybersecurity. Here is 
 
 ---
 
-## **License**
+## **9. License**
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
