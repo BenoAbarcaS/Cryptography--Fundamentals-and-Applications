@@ -20,8 +20,7 @@ This repository provides concepts and practical examples to understand a complet
 5. [Other Cryptographic Algorithms](#5-other-cryptographic-algorithms)
 6. [Common Combinations](#6-common-combinations)
 7. [Additional Resources](#7-additional-resources)
-8. [Cybersecurity Learning Path](#8-cybersecurity-learning-path)
-9. [License](#9-license)
+8. [License](#8-license)
 
 ---
 
@@ -244,14 +243,6 @@ This combination uses HMAC to authenticate data encrypted with AES. HMAC ensures
 
 ---
 
-## **8. Cybersecurity Learning Path**
-
-This repository is part of a series of projects to learn cybersecurity. Here is the recommended order:
-
-1. **[Cryptography: Fundamentals and Applications](https://github.com/BenoAbarcaS/Cryptography--Fundamentals-and-Applications)**
-
----
-
-## **9. License**
+## **8. License**
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
