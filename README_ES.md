@@ -20,8 +20,7 @@ Este repositorio proporciona conceptos y ejemplos prácticos para entender un si
 5. [Otros Algoritmos Criptográficos](#5-otros-algoritmos-criptográficos)
 6. [Combinaciones Comunes](#6-combinaciones-comunes)
 7. [Recursos Adicionales](#7-recursos-adicionales)
-8. [Ruta de Aprendizaje en Ciberseguridad](#8-ruta-de-aprendizaje-en-ciberseguridad)
-9. [Licencia](#9-licencia)
+8. [Licencia](#8-licencia)
 
 ---
 
@@ -244,14 +243,6 @@ Esta combinación utiliza HMAC para autenticar datos cifrados con AES. HMAC aseg
 
 ---
 
-## **8. Ruta de Aprendizaje en Ciberseguridad**
-
-Este repositorio es parte de una serie de proyectos para aprender ciberseguridad. Aquí está el orden recomendado:
-
-1. **[Criptografía: Fundamentos y Aplicaciones](https://github.com/BenoAbarcaS/Cryptography--Fundamentals-and-Applications)**
-
----
-
-## **9. Licencia**
+## **8. Licencia**
 
 Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
